@@ -35,7 +35,7 @@
 			headers: {
 			'Content-Type': 'application/json'
 			},
-			body: JSON.stringify({ name: name.toString(), tmdb_id:tmdb_id.toString(), rank:rank.toString()})
+			body: JSON.stringify({ name: name.toString(), tmdb_id:tmdb_id.toString(), rank:rank.toString(),user_id: "1"})
 	});
     if (res.ok) {
 			alert('Artista adicionado aos favoritos com sucesso!');
